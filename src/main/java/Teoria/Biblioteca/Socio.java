@@ -38,14 +38,12 @@ public class Socio implements Comparable{
     }
 
     @Override
+    public String toString() {
+        return "\n" + nombre  + apellido  + fechaNac;
+    }
+
+    @Override
     public int compareTo(Object o) {
-        Socio s = (Socio) o;
-        if (this.fechaNac.isBefore(s.fechaNac)) {
-            return 1;
-        } else if (this.fechaNac.isAfter(s.fechaNac)){
-            return -1;
-        } else {
-            return 0;
-        }
+        return 0;
     }
 }

@@ -3,6 +3,7 @@ package ejercicios.Lamda.Ejercicio01;
 import ejercicios.Lamda.Ejercicio2.Persona;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
@@ -70,8 +71,33 @@ public class Main {
         //Crea una lista de objetos de tipo Persona (con atributos nombre y edad) y utiliza una expresión lambda para ordenar la lista por edad, de menor a mayor.
         personas.sort((p1, p2 )-> p1.getEdad() - p2.getEdad());
         //Crea una lista de objetos de tipo Persona y utiliza una expresión lambda para filtrar las personas que tienen una edad mayor a 30.
+        personas.stream().filter(persona -> persona.getEdad() > 30).forEach(persona -> System.out.println(persona));
         //Crea una lista de objetos de tipo Producto (con atributos nombre y precio) y utiliza una expresión lambda para calcular el precio total de la lista.
+        List<Producto> productos = new ArrayList<>();
+        productos.add(new Producto("Pan",0.99));
+        productos.add(new Producto("Leche",1.1));
+        productos.add(new Producto("Jamon",1));
+        productos.add(new Producto("Estropajo",2.15));
+        productos.add(new Producto("Donuts",1.5));
+        productos.add(new Producto("Doritos",1.25));
+        productos.add(new Producto("Coca-cola",1.25));
+        productos.add(new Producto("Aceite",10.5));
+        Ejercicio8 e8 = lista1 -> {
+            double total = 0;
+            for (Producto item : lista1) {
+                total = total + item.getPrecio();
+            }
+            return total;
+        };
+        double resultado = e8.calcularTotal(productos);
+        System.out.printf("Total: %.2f", resultado);
+        productos.stream().mapToDouble(producto -> producto.getPrecio()).sum();
+        System.out.printf("Total: %.2f", resultado);
+        System.out.println("____________________________");
         //Crea una lista de objetos de tipo Producto y utiliza una expresión lambda para ordenar la lista por precio, de mayor a menor.
+        productos.sort((p1, p2) -> (int) (p1.getPrecio()  * 100 - p2.getPrecio() * 100));
+        productos.forEach(producto -> System.out.println(producto));
         //Crea una lista de objetos de tipo Producto y utiliza una expresión lambda para filtrar los productos que tienen un precio menor a 10.
+        productos.stream().filter(producto -> producto.getPrecio() < 10).forEach(producto -> System.out.println(producto));
     }
 }

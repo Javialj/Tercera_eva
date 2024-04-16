@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a594e2b-77aa-4d9b-ac8f-050f881573da" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Teoria/Consumer/MainConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Teoria/Suplayer/MainSuplaier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicios/Lamda/Ejercicio04/MainE04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicios/Stream/Ejercicio01/Ejercicio01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicios/Stream/Ejercicio02/Arma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicios/Stream/Ejercicio02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicios/Stream/Ejercicio02/Personaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -56,39 +58,26 @@
       <recent name="ejercicios.Lamda.Ejercicio01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainSuplaier">
+  <component name="RunManager" selected="Application.ejercicios.Stream.Ejercicio02.Main">
+    <configuration name="Ejercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicios.Stream.Ejercicio01.Ejercicio01" />
+      <module name="Tercera_eva" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicios.Stream.Ejercicio01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicios.Lamda.Ejercicio01.Main" />
       <module name="Tercera_eva" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ejercicios.Lamda.Ejercicio01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainEjercicio03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicios.Lamda.Ejercico03.MainEjercicio03" />
-      <module name="Tercera_eva" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ejercicios.Lamda.Ejercico03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teoria.Predicate.MainPredicate" />
-      <module name="Tercera_eva" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Teoria.Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ejercicios.Stream.Ejercicio02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicios.Stream.Ejercicio02.Main" />
+      <module name="Tercera_eva" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicios.Stream.Ejercicio02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ejercicios.Stream.Ejercicio02.Main" />
+        <item itemvalue="Application.Ejercicio01" />
         <item itemvalue="Application.MainSuplaier" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Teoria.Biblioteca.Main" />
-        <item itemvalue="Application.MainEjercicio03" />
-        <item itemvalue="Application.MainPredicate" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +157,10 @@
       <workItem from="1712763688855" duration="1272000" />
       <workItem from="1712843075392" duration="6023000" />
       <workItem from="1712906236140" duration="74000" />
-      <workItem from="1712944030208" duration="2372000" />
+      <workItem from="1712944030208" duration="2700000" />
+      <workItem from="1713015402055" duration="365000" />
+      <workItem from="1713191214775" duration="6148000" />
+      <workItem from="1713200283616" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="sadaw">
       <option name="closed" value="true" />
@@ -173,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712764996501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="a">
+      <option name="closed" value="true" />
+      <created>1712946660839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712946660839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

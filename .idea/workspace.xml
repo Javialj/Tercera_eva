@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a594e2b-77aa-4d9b-ac8f-050f881573da" name="Changes" comment="17/04/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Excepciones/Videos/V1Excepciones/Video1.java" afterDir="false" />
+    <list default="true" id="9a594e2b-77aa-4d9b-ac8f-050f881573da" name="Changes" comment="22/04/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Teoria/Ficheros/Ejemplo_File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Teoria/Ficheros/fichero.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicios/Ficheros/Ejercicio01/E01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,36 +52,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2954023",
-    "settings.editor.selected.configurable": "org.intellij.featuresSuggester.FeatureSuggesterConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2954023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.intellij.featuresSuggester.FeatureSuggesterConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Teoria.Function" />
       <recent name="ejercicios.Lamda.Ejercicio01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Video1">
-    <configuration name="Ejercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicios.Stream.Ejercicio01.Ejercicio01" />
+  <component name="RunManager" selected="Application.E01">
+    <configuration name="E01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicios.Ficheros.Ejercicio01.E01" />
       <module name="Tercera_eva" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ejercicios.Stream.Ejercicio01.*" />
+          <option name="PATTERN" value="ejercicios.Ficheros.Ejercicio01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSuplaier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teoria.Suplayer.MainSuplaier" />
+    <configuration name="Ejemplo_File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teoria.Ficheros.Ejemplo_File" />
       <module name="Tercera_eva" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Teoria.Suplayer.*" />
+          <option name="PATTERN" value="Teoria.Ficheros.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E01" />
+        <item itemvalue="Application.Ejemplo_File" />
         <item itemvalue="Application.Video1" />
         <item itemvalue="Application.ejercicios.Stream.Ejercicio03.Main" />
         <item itemvalue="Application.ejercicios.Stream.Ejercicio02.Main" />
-        <item itemvalue="Application.Ejercicio01" />
-        <item itemvalue="Application.MainSuplaier" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +182,11 @@
       <workItem from="1713281623355" duration="54000" />
       <workItem from="1713282216696" duration="355000" />
       <workItem from="1713367195713" duration="6604000" />
-      <workItem from="1713447726163" duration="3854000" />
+      <workItem from="1713447726163" duration="5401000" />
+      <workItem from="1713793759682" duration="56000" />
+      <workItem from="1713795396146" duration="4677000" />
+      <workItem from="1713800497538" duration="1258000" />
+      <workItem from="1713886572617" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="sadaw">
       <option name="closed" value="true" />
@@ -230,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713448222767</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="18/04/2024">
+      <option name="closed" value="true" />
+      <created>1713453083155</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713453083155</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +254,8 @@
     <MESSAGE value="sadaw" />
     <MESSAGE value="a" />
     <MESSAGE value="17/04/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="17/04/2024" />
+    <MESSAGE value="18/04/2024" />
+    <MESSAGE value="22/04/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="22/04/2024" />
   </component>
 </project>

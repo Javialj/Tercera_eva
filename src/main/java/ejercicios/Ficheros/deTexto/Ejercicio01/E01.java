@@ -1,4 +1,4 @@
-package ejercicios.Ficheros.Ejercicio01;
+package ejercicios.Ficheros.deTexto.Ejercicio01;
 
 import java.io.File;
 import java.util.Scanner;
